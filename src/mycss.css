@@ -1,0 +1,109 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: black;
+}
+
+.header{
+  width: 100%;
+  background-color: blue;
+  padding: 10px 0px;
+
+}
+.header h1{
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 255, 255);
+  width: 90%;
+  
+  margin: auto;
+  
+  
+}
+
+
+/* Movies */
+.main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 14px;
+ 
+}
+
+.movies{
+ 
+  color: black;
+
+  /* padding: 4px; */
+  /* width: 150px;
+
+  text-align: center; */
+
+}
+.movies img{
+  width: 100%;
+  height: 70%;
+
+}
+
+.card{
+  width: 150px;
+  text-align: center;
+  /* border: 2px solid red; */
+  font-weight: 600;
+  background-color: rgb(229, 229, 229);
+  margin: 10px;
+  padding-bottom: 5px;
+
+  border: 1px solid white;
+
+  box-shadow: 1px 1px 2px 1px white;
+}
+
+
+/* About */
+.aboutsection{
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  /* border: 2px solid red; */
+  border-bottom: 1px solid red;
+
+}
+.aboutsection h2{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+}
+.aboutsection p{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 4px;
+
+}
+
+/* Footer */
+
+.footer{
+  border: 2px solid white;
+  color: white;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.icons ul{
+  list-style: none;
+  padding: 10px;
+}
+.address{
+  padding: 10px;
+}
+
